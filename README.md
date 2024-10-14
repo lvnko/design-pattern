@@ -5,7 +5,7 @@ $ npm install -g ts-node    # 全域安裝 ts-node 命令
 
 ```
 
-2. 建立一個專案資料夾，並近入
+2. 建立一個專案資料夾，並打開
 ```shell
 $ mkdir design-pattern ; cd design-pattern
 ```
@@ -74,8 +74,8 @@ $ npm run start
 ### 本週學習心訣
 **SOLID Principles 程式設計五大原則**
 1. Single Responsibility Principle 單一職責原則 (SRP)
-    > [!TIP]
-    > A class should have just one reason to change.
+> [!TIP]
+> A class should have just one reason to change.
 2. Open-Closed Principle 開放封閉原則 (OCP)
     > [!TIP]
     > Classes should be open for extension but closed for modification.
