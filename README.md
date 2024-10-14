@@ -77,17 +77,17 @@ $ npm run start
 > [!TIP]
 > A class should have just one reason to change.
 2. Open-Closed Principle 開放封閉原則 (OCP)
-    > [!TIP]
-    > Classes should be open for extension but closed for modification.
+> [!TIP]
+> Classes should be open for extension but closed for modification.
 3. Liskov Substitution Principle 里氏替換原則 (LSP)
-    > [!TIP]
-    > When extending a class, remember that you should be able to pass objects of the subclass in place of objects of the parent class without breaking the client code.
+> [!TIP]
+> When extending a class, remember that you should be able to pass objects of the subclass in place of objects of the parent class without breaking the client code.
 4. Interface Segregation Principle 介面隔離原則 (ISP)
-    > [!TIP]
-    > Clients shouldn’t be forced to depend on methods they do not use.
+> [!TIP]
+> Clients shouldn’t be forced to depend on methods they do not use.
 5. Dependency Inversion Principle 依賴反轉原則 (DIP)
-    > [!TIP]
-    > Depend upon abstractions, not concretions.
+> [!TIP]
+> Depend upon abstractions, not concretions.
 
 ### 有用資源連結
 - ts-node : 因應 Typescript 在 Node.js 上運行的交互介面 [github repo](https://github.com/TypeStrong/ts-node)
