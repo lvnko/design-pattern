@@ -11,38 +11,6 @@
  * Hint：工廠模式巧面睇運用了多行的概念
  */
 
-// interface Car {
-//     wheelNumber: number;
-//     carType: string;
-    
-//     getType(): string;
-//     getName(): string;
-// }
-
-// class BMW implements Car {
-//     wheelNumber: number = 4;
-//     carType: string = "car";
-
-//     getType = (): string => this.carType;
-//     getName = (): string => this.constructor.name;
-// }
-
-// class MitsubishiFuso implements Car {
-//     wheelNumber: number = 4;
-//     carType: string = "truck";
-
-//     getType = (): string => this.carType;
-//     getName = (): string => this.constructor.name;
-// }
-
-// class RAV4 implements Car {
-//     wheelNumber: number = 4;
-//     carType: string = "rv";
-
-//     getType = (): string => this.carType;
-//     getName = (): string => this.constructor.name;
-// }
-
 import { Car, BMW, MitsubishiFuso, RAV4 } from "./simple";
 
 
