@@ -20,7 +20,7 @@
  * 
  * ### 實際案例
  * - Message Queue.（已經寫好的服務。這個模式的實現。），RabbitMQ：支持現在主流的程式語言：NodeJs,Golang,Java,C/C++，Python，••
- * - NodeJs 8J BullJob (Job Schedular.)
+ * - NodeJs 的 BullJob (Job Schedular.)
  * - Python 的 Celery
  */
 
@@ -67,7 +67,7 @@ class Consumer {
             if (this.buffer.length <= 0) // 若緩衝區無內容，便通知 Consumer 等待。
                 return console.warn('\x1b[35m%s\x1b[0m', `緩衝區已空，請稍等。`);
             
-                // 將資料曲出來處理
+                // 將資料取出來處理
             const msg = this.buffer.shift();
             console.log(`取出 => ${msg} 來處理。`);
 

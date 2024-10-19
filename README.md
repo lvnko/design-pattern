@@ -71,8 +71,9 @@ scripts: {
 $ npm run start
 ```
 
-### 本週學習心訣
-**SOLID Principles 程式設計五大原則**
+### 本週學習紀錄
+#### 程式設計原則及核心模式
+**A. SOLID Principles 程式設計五大原則 及其心訣**
 1. Single Responsibility Principle 單一職責原則 (SRP)
 > [!TIP]
 > A class should have just one reason to change.
@@ -89,6 +90,18 @@ $ npm run start
 > [!TIP]
 > Depend upon abstractions, not concretions.
 
+**B. 五大核心設計模式**
+
+1. 單列模式 (Singleton Pattern)
+2. 工廠模式 (Factory Pattern)
+3. 觀察者模式 (Observer Pattern)
+4. 生產者/消費者模式 (Producer-Consumer Pattern)
+5. 轉接器模式 (Adapter Pattern)
+
 ### 有用資源連結
 - ts-node : 因應 Typescript 在 Node.js 上運行的交互介面 [github repo](https://github.com/TypeStrong/ts-node)
 - 程式設計五大原則補充閱讀及例子 [SOLID Principles in TypeScript (5 Part Series)](https://dev.to/jmalvarez/single-responsibility-principle-in-typescript-859)
+- Message Queue 任務排程 (簡介：[AMS](https://aws.amazon.com/message-queue/#:~:text=A%20message%20queue%20is%20a,once%2C%20by%20a%20single%20consumer.), [IBM](https://www.ibm.com/topics/message-queues))
+  - RabbitMQ - One broker to queue them all ([LINK](https://www.rabbitmq.com/))
+  - Bull - Bull is a Node library that implements a fast and robust queue system based on [redis](https://redis.io/), one of its main feature is: Minimal CPU usage due to a polling-free design. ([LINK](https://optimalbits.github.io/bull/))
+  - Celery - written in Python, an open source asynchronous task queue or job queue which is based on distributed message passing, it supports scheduling, and focus on operations in real time. ([簡介](https://docs.celeryq.dev/en/stable/getting-started/introduction.html), [技術閱讀](https://medium.com/@v0220225/backend-%E6%8E%92%E7%A8%8B%E6%8E%92%E8%B5%B7%E4%BE%86-celery-7cd8ca964716))
