@@ -95,6 +95,7 @@ $ npm run start
 1. 單列模式 (Singleton Pattern)
 2. 工廠模式 (Factory Pattern)
 3. 觀察者模式 (Observer Pattern)
+  - 作業 ([src/observer/homework.ts](./src/observer/homework.ts))
 4. 生產者/消費者模式 (Producer-Consumer Pattern)
 5. 轉接器模式 (Adapter Pattern)
 
