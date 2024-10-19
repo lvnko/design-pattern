@@ -251,4 +251,6 @@ pub2.publish("主題2", "消息2");
 // 主題1 的最新消息已經發布給 小红 了, 消息：消息1
 // 主題1 的最新消息已經發布給 小張 了, 消息：消息1
 // 主題2 的最新消息已經發布給 小红 了, 消息：消息2
+
+export { IPublisher, ISubscriber, IDispatchCenter };
   
